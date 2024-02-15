@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Orbitron:wght@800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+#container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+}
+#container section {
+  width: 70%;
+  padding: 4em;
+  border: 1px solid #FFF;
+  border-radius: 2em;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+#container section h1 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.5em;
+  color: #FFF;
+  margin-bottom: 0.25em;
+  text-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+#container section p {
+  color: #FFF;
+  margin-top: 1em;
+  line-height: 2em;
+}/*# sourceMappingURL=style.css.map */
